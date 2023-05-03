@@ -1,7 +1,6 @@
 import { Suspense } from "react";
 import "./App.css";
 import Tile from "./components/tile/tile";
-import InstallButton from "./components/install-button/install-button";
 
 const audioFiles = [
   { url: require('./assets/river.mp3'), logo: 'fa-water' },
@@ -21,7 +20,6 @@ function App() {
         {audioFiles.map((audio, i) => <Tile key={i} logo={audio.logo} url={audio.url} />)}
       </Suspense>
       </div>
-      <InstallButton />
     </div>
   );
 }
