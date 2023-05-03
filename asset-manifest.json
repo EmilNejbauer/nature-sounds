@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nature-sounds/static/css/main.9ea2c6ee.css",
-    "main.js": "/nature-sounds/static/js/main.e4df8ae5.js",
+    "main.css": "/nature-sounds/static/css/main.8a6cdcb3.css",
+    "main.js": "/nature-sounds/static/js/main.f8d7dd93.js",
     "static/js/787.640e3ec4.chunk.js": "/nature-sounds/static/js/787.640e3ec4.chunk.js",
     "static/media/birds.wav": "/nature-sounds/static/media/birds.ad6d4ab14fc3e3c6267f.wav",
     "static/media/wind.wav": "/nature-sounds/static/media/wind.81b4325b56f6da2d4bdd.wav",
@@ -11,12 +11,12 @@
     "static/media/thunder.mp3": "/nature-sounds/static/media/thunder.1f0dd1a439cbb640b9f4.mp3",
     "service-worker.js": "/nature-sounds/service-worker.js",
     "index.html": "/nature-sounds/index.html",
-    "main.9ea2c6ee.css.map": "/nature-sounds/static/css/main.9ea2c6ee.css.map",
-    "main.e4df8ae5.js.map": "/nature-sounds/static/js/main.e4df8ae5.js.map",
+    "main.8a6cdcb3.css.map": "/nature-sounds/static/css/main.8a6cdcb3.css.map",
+    "main.f8d7dd93.js.map": "/nature-sounds/static/js/main.f8d7dd93.js.map",
     "787.640e3ec4.chunk.js.map": "/nature-sounds/static/js/787.640e3ec4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ea2c6ee.css",
-    "static/js/main.e4df8ae5.js"
+    "static/css/main.8a6cdcb3.css",
+    "static/js/main.f8d7dd93.js"
   ]
 }
