@@ -18,8 +18,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/index.html",
-  "scope": "/index.html",
+  "start_url": "nature-sounds/index.html",
+  "scope": "nature-sounds/index.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
