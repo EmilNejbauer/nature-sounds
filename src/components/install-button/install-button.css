@@ -1,0 +1,9 @@
+.install-button {
+    border: 3px solid #0D4C92;
+    background-color: #0D4C92;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+}

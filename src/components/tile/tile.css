@@ -1,0 +1,28 @@
+.tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 3px solid #59C1BD;
+    border-radius: 25px;
+    color: #59C1BD;
+    padding: 20px;
+}
+
+.logo {
+    margin-bottom: 20px;
+    font-size: 64px;
+}
+
+.active {
+    color: #0D4C92;
+    border-color: #0D4C92;
+    accent-color: #0D4C92;
+}
+
+.hidden {
+    display: none;
+}

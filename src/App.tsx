@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Suspense } from "react";
+import "./App.css";
+import Tile from "./components/tile/tile";
+import InstallButton from "./components/install-button/install-button";
+
+const audioFiles = [
+  { url: require('./assets/river.mp3'), logo: 'fa-water' },
+  { url: require('./assets/campfire.mp3'), logo: 'fa-fire' },
+  { url: require('./assets/thunder.mp3'), logo: 'fa-cloud-bolt' },
+  { url: require('./assets/rain.wav'), logo: 'fa-cloud-showers-heavy' },
+  { url: require('./assets/wind.wav'), logo: 'fa-wind' },
+  { url: require('./assets/birds.wav'), logo: 'fa-dove' },
+];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Nature Sounds App</h1>
+      <div className="tiles">
+      <Suspense fallback={<div>Loading...</div>}>
+        {audioFiles.map((audio, i) => <Tile key={i} logo={audio.logo} url={audio.url} />)}
+      </Suspense>
+      </div>
+      <InstallButton />
     </div>
   );
 }
